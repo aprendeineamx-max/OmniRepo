@@ -32,7 +32,7 @@
     * **SEGURIDAD:** Implementar validación de tamaño antes de clonar (rechazar repos > 1GB para evitar DoS).
     * Limpieza automática de la carpeta `/vault` antes de cada nueva operación.
 
-- [ ] **05. EL AISLAMIENTO (Sandbox Setup):**
+- [x] **05. EL AISLAMIENTO (Sandbox Setup):**
     * Definir un `Dockerfile` base que servirá para ejecutar el código ajeno.
     * Debe ser una imagen mínima (Alpine/Slim) sin acceso a internet (network: none) por defecto.
     * *Criterio de Éxito:* El sistema puede levantar un contenedor "dummy" y matarlo programáticamente.
