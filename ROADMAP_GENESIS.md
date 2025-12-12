@@ -85,7 +85,7 @@
     * JS: Resolver `require('../models/user')` -> Ruta absoluta.
     * *Crucial:* Si esto falla, el grafo se rompe. Debe ser robusto.
 
-- [ ] **15. ANÁLISIS DE COMPLEJIDAD (Code Metrics):**
+- [x] **15. ANÁLISIS DE COMPLEJIDAD (Code Metrics):**
     * Calcular Complejidad Ciclomática (McCabe) para cada función.
     * Identificar funciones "Monstruo" (>50 líneas, muchos `if/else`).
     * Etiquetarlas como "Riesgo de Deuda Técnica".
