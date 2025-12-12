@@ -69,7 +69,7 @@
     * Métodos obligatorios: `extract_functions()`, `extract_classes()`, `find_dependencies()`.
     * Esto permite agregar soporte para Go, Rust o Java en el futuro sin romper el núcleo.
 
-- [ ] **12. PARSER PYTHON (AST Mastery):**
+- [x] **12. PARSER PYTHON (AST Mastery):**
     * Implementar `parsers/python_parser.py` usando la librería nativa `ast`.
     * Extraer: Nombres de funciones, argumentos, decoradores, y Docstrings.
     * *Nivel Dios:* Detectar si una función es "Pura" (sin efectos secundarios) o "Impura".
