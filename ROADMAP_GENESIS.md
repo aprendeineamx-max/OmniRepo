@@ -90,7 +90,7 @@
     * Identificar funciones "Monstruo" (>50 líneas, muchos `if/else`).
     * Etiquetarlas como "Riesgo de Deuda Técnica".
 
-- [ ] **16. MINERÍA DE SQL Y DATOS:**
+- [x] **16. MINERÍA DE SQL Y DATOS:**
     * Detectar strings que parecen SQL (`SELECT * FROM...`).
     * Detectar esquemas de ORM (Modelos de Django, Schemas de Mongoose).
     * Objetivo: Entender la estructura de datos subyacente sin correr la DB.
