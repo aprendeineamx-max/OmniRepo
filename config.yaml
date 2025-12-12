@@ -1,0 +1,11 @@
+project_name: "Quirófano Digital"
+version: "0.9.0"
+paths:
+  vault: "vault"
+  storage: "storage"
+  logs: "logs"
+limits:
+  max_repo_size_mb: 500
+  max_recursion_depth: 20
+security:
+  hazmat_level: "HIGH"

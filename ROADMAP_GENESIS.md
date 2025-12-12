@@ -51,7 +51,7 @@
     * Búsqueda de patrones peligrosos mediante Regex (`rm -rf`, `eval`, `base64_decode`, IPs hardcodeadas).
     * Si se detecta peligro, el sistema entra en modo "DEFCON 1" (Análisis solo estático, ejecución prohibida).
 
-- [ ] **09. GESTOR DE CONFIGURACIÓN DINÁMICA:**
+- [x] **09. GESTOR DE CONFIGURACIÓN DINÁMICA:**
     * Crear `config.yaml` y su cargador.
     * Debe permitir cambiar rutas y límites de memoria sin tocar código.
     * Cargar `.env` para las Keys de IA (preparación para el futuro).
