@@ -74,7 +74,7 @@
     * Extraer: Nombres de funciones, argumentos, decoradores, y Docstrings.
     * *Nivel Dios:* Detectar si una función es "Pura" (sin efectos secundarios) o "Impura".
 
-- [ ] **13. PARSER JAVASCRIPT/TYPESCRIPT (Tree-Sitter):**
+- [x] **13. PARSER JAVASCRIPT/TYPESCRIPT (Tree-Sitter):**
     * Integrar `py-tree-sitter` o un parser basado en Regex robusto para JS.
     * Identificar `import`, `export`, `function`, `const` y clases.
     * Manejar la complejidad de JSX/React (detectar componentes).
