@@ -26,7 +26,7 @@ Tú controlarás el sistema escribiendo archivos JSON en `./nexus_link/commands/
     "analysis_depth": "DEEP",
     "trace_variables": ["user_id", "session_token"]
   },
-  "auth_signature": "CODEX_OMEGA_HASH"
+  "auth_signature": "GEMINI_HASH"
 }
 
 
