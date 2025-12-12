@@ -79,7 +79,7 @@
     * Identificar `import`, `export`, `function`, `const` y clases.
     * Manejar la complejidad de JSX/React (detectar componentes).
 
-- [ ] **14. EXTRACTOR DE DEPENDENCIAS (El Tejido Conectivo):**
+- [x] **14. EXTRACTOR DE DEPENDENCIAS (El Tejido Conectivo):**
     * Lógica para resolver imports.
     * Python: Convertir `from .utils import helper` -> Ruta absoluta `/src/utils.py`.
     * JS: Resolver `require('../models/user')` -> Ruta absoluta.
