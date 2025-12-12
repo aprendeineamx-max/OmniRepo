@@ -1,0 +1,12 @@
+# Runtime Data
+logs/
+nexus_link/
+vault/
+storage/
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary
+patch_identity.py

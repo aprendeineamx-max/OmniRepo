@@ -16,17 +16,17 @@
         * `/storage`: Bases de datos persistentes (SQLite + Vector Store).
     * *Criterio de Éxito:* El script `init_project.py` corre sin errores y genera la estructura.
 
-- [ ] **02. SISTEMA DE REGISTRO VITAL (Advanced Logging):**
+- [x] **02. SISTEMA DE REGISTRO VITAL (Advanced Logging):**
     * Implementar `core/logger.py` con rotación de archivos.
     * Debe soportar niveles: `INFO` (Rutina), `WARNING` (Deuda técnica detectada), `CRITICAL` (Fallo de parser), `HAZMAT` (Código malicioso detectado).
     * *Criterio de Éxito:* Los logs se escriben en JSONL para ser parseables por máquinas.
 
-- [ ] **03. PROTOCOLO NEXUS V1 (El Enlace):**
+- [x] **03. PROTOCOLO NEXUS V1 (El Enlace):**
     * Implementar el "Watcher" que vigila la carpeta `/nexus/commands`.
     * Crear el "Heartbeat Emitter" que escribe `status.json` cada 1s.
     * *Criterio de Éxito:* Puedes crear un archivo JSON manual en esa carpeta y el sistema reacciona imprimiendo un log.
 
-- [ ] **04. MOTOR DE INGESTA (GitCloner Blindado):**
+- [x] **04. MOTOR DE INGESTA (GitCloner Blindado):**
     * Crear `engines/ingestor.py`.
     * Usar `gitpython` para clonar.
     * **SEGURIDAD:** Implementar validación de tamaño antes de clonar (rechazar repos > 1GB para evitar DoS).
