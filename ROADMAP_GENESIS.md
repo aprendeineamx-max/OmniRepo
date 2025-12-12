@@ -64,7 +64,7 @@
 ## 🧠 ÉPOCA II: ANATOMÍA (Parsing y Extracción de Conocimiento)
 *Objetivo: Convertir texto plano en estructuras de datos lógicas (AST).*
 
-- [ ] **11. ARQUITECTURA DE PARSERS MODULARES:**
+- [x] **11. ARQUITECTURA DE PARSERS MODULARES:**
     * Crear clase abstracta `BaseParser`.
     * Métodos obligatorios: `extract_functions()`, `extract_classes()`, `find_dependencies()`.
     * Esto permite agregar soporte para Go, Rust o Java en el futuro sin romper el núcleo.
