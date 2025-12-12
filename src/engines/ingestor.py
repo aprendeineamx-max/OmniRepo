@@ -30,15 +30,26 @@ class Ingestor:
             os.makedirs(self.vault_path, exist_ok=True)
             return
 
+        # Helper to force delete read-only files (Windows fix)
+        def remove_readonly(func, path, excinfo):
+            os.chmod(path, 0o777)
+            func(path)
+
         for item in os.listdir(self.vault_path):
             item_path = os.path.join(self.vault_path, item)
             try:
                 if os.path.isfile(item_path) or os.path.islink(item_path):
                     os.unlink(item_path)
                 elif os.path.isdir(item_path):
-                    shutil.rmtree(item_path)
+                    shutil.rmtree(item_path, onerror=remove_readonly)
             except Exception as e:
                 self.logger.error(f"Failed to delete {item_path}: {e}")
+        
+        # Double check and wait a bit if needed
+        import time
+        time.sleep(0.5)
+        if os.path.exists(self.target_path):
+             self.logger.warning(f"Target path still exists after cleanup: {self.target_path}")
         
         self.logger.info("Vault contents incinerated. Area sterile.")
 

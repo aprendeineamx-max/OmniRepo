@@ -56,7 +56,7 @@
     * Debe permitir cambiar rutas y límites de memoria sin tocar código.
     * Cargar `.env` para las Keys de IA (preparación para el futuro).
 
-- [ ] **10. PRIMERA SINAPSIS (Prueba de Integración I):**
+- [x] **10. PRIMERA SINAPSIS (Prueba de Integración I):**
     * **Hito Principal:** El usuario entrega una URL de GitHub. El sistema la descarga, la escanea, genera el `manifest.json` y reporta "LISTO PARA AUTOPSIA" a través del Nexus.
 
 ---
