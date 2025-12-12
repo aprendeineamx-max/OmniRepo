@@ -95,11 +95,11 @@
     * Detectar esquemas de ORM (Modelos de Django, Schemas de Mongoose).
     * Objetivo: Entender la estructura de datos subyacente sin correr la DB.
 
-- [ ] **17. IDENTIFICACIÓN DE ENDPOINTS (La Piel):**
+- [x] **17. IDENTIFICACIÓN DE ENDPOINTS (La Piel):**
     * Escanear rutas de frameworks web (Flask `@app.route`, Express `app.get`).
     * Crear un mapa de "Superficie de Ataque" (todas las URLs que el software expone al mundo).
 
-- [ ] **18. PERSISTENCIA EN GRAFO (NetworkX Core):**
+- [x] **18. PERSISTENCIA EN GRAFO (NetworkX Core):**
     * Inicializar un Grafo Dirigido (`DiGraph`).
     * Agregar cada archivo como NODO.
     * Agregar cada import como ARISTA.
