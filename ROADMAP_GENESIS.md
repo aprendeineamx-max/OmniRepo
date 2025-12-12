@@ -37,17 +37,17 @@
     * Debe ser una imagen mínima (Alpine/Slim) sin acceso a internet (network: none) por defecto.
     * *Criterio de Éxito:* El sistema puede levantar un contenedor "dummy" y matarlo programáticamente.
 
-- [ ] **06. ANALIZADOR DE SUPERFICIE (Reconocimiento):**
+- [x] **06. ANALIZADOR DE SUPERFICIE (Reconocimiento):**
     * Script que recorre el repo (`os.walk`) y genera un "Inventario de Activos".
     * Contar archivos por extensión.
     * Detectar tamaño total.
     * *Criterio de Éxito:* Generar un `manifest.json` que resume qué acabamos de descargar.
 
-- [ ] **07. DETECTOR DE LENGUAJES (Políglota):**
+- [x] **07. DETECTOR DE LENGUAJES (Políglota):**
     * Implementar lógica (usando librería `enry` o mapeo de extensiones) para determinar el % de lenguajes.
     * Esto define qué parsers activar en la Época II.
 
-- [ ] **08. ESCÁNER DE AMENAZAS (Hazmat Scan):**
+- [x] **08. ESCÁNER DE AMENAZAS (Hazmat Scan):**
     * Búsqueda de patrones peligrosos mediante Regex (`rm -rf`, `eval`, `base64_decode`, IPs hardcodeadas).
     * Si se detecta peligro, el sistema entra en modo "DEFCON 1" (Análisis solo estático, ejecución prohibida).
 
